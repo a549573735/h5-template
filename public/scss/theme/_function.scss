@@ -1,0 +1,20 @@
+@mixin setPrefix_transtion($timer:2s,$delty:1s,$type:opacity){
+	-webkit-transition:$type $timer $delty ease;
+	transition:$type $timer $delty ease;
+}
+
+@mixin setUrlImg($url){
+	background-image: url($url);
+	background-repeat: no-repeat;
+	background-position: 100% 100%;
+	background-size: cover;
+}
+
+
+@mixin setUrlImg2($url){
+	background-image: url($url);
+	background-repeat: no-repeat;
+	background-position: 100% 100%;
+	background-size: contain;
+}
+
